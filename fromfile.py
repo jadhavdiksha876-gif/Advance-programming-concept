@@ -1,0 +1,15 @@
+from array import array
+
+a = array('i', [10, 20, 30])
+
+f = open("data.bin", "wb")
+a.tofile(f)
+f.close()
+
+b = array('i')
+
+f = open("data.txt", "rb")
+b.fromfile(f, 3)
+f.close()
+
+print(b)
