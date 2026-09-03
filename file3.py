@@ -1,0 +1,5 @@
+file = open("student.txt", "a")
+file.write("College: DYPCET \n")
+file.write("City: Kolhapur\n")
+file.close()
+print("Information appended successfully.")
