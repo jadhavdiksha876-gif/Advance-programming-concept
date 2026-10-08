@@ -1,0 +1,11 @@
+import numpy as np
+arr1 = np.array([1,2,3])
+arr2 = np.array([4,5,6])
+Addition = np.array(arr1 + arr2)
+subtraction = np.array(arr2 - arr1)
+Multiplication = np.array(arr1*arr2)
+Division = np.array(arr2/arr1)
+print("Addition: ",Addition)
+print("Subtraction: ",subtraction)
+print("Multiplication : ",Multiplication)
+print("Division : ",Division)
